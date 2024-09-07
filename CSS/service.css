@@ -1,0 +1,75 @@
+@import url('main.css');
+
+.service-hero {
+    background: linear-gradient(to left, #00000054, #00000054), url('../RESOURCES/Images/services.jpg');
+    background-position: center;
+    background-size: cover;
+}
+
+.service-icons {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 60px;
+    width: 60px;
+    border-radius: 50px;
+    background-color: var(--primary-half-opacity-color);
+    color: var(--primary-color);
+    font-size: 30px;
+    margin: 10px 0;
+}
+
+.services-cards {
+    box-shadow: 0 0 0 transparent;
+    transition: all 0.4s ease-in-out;
+    cursor: pointer;
+}
+
+.services-cards:hover {
+    box-shadow: 0px 0px 30rem var(--primary-color);
+}
+
+.slide-card-icons {
+    color: var(--primary-color);
+    background-color: var(--primary-half-opacity-color);
+    height: 60px;
+    width: 60px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 50px;
+    font-size: 2rem;
+    transition: all 0.5s ease-in-out;
+}
+
+.slide-card-wrapper:hover .slide-card {
+    width: 100%;
+    color: var(--white-color);
+}
+
+.slide-card-wrapper:hover {
+    border-color: var(--primary-color);
+}
+
+.slide-card-wrapper:hover .slide-card-icons {
+    color: var(--white-color);
+    background-color: var(--white-half-opacity-color);
+}
+
+.slide-card-wrapper {
+    transition: all 0.5s ease-in-out;
+    border: 1px solid var(--secondary-color);
+    position: relative;
+    min-height: 100px;
+}
+
+.slide-card {
+    /* padding: 15px 20px; */
+    transition: all 0.5s ease-in-out;
+    width: 0px;
+    height: 100px;
+    display: flex;
+    gap: 2rem;
+    align-items: center;
+    background-color: var(--primary-color);
+}

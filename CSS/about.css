@@ -1,0 +1,17 @@
+@import url('./main.css');
+
+.about-hero {
+    background: linear-gradient(to left, #00000054, #00000054), url('../RESOURCES/Images/about-hero.jpg');
+    background-position: center;
+    background-size: cover;
+}
+
+.about-card-image {
+    rotate: 0deg;
+    transition: var(--btn-transition-state);
+}
+
+.about-card-image:hover {
+    rotate: 20deg;
+    scale: 1.1;
+}

@@ -1,0 +1,7 @@
+@import url('./main.css');
+
+.blog-hero {
+    background: linear-gradient(to left, #00000054, #00000054), url('../RESOURCES/Images/blogs.jpg');
+    background-position: center;
+    background-size: cover;
+}
